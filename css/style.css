@@ -11,20 +11,34 @@ h1{
     
   }
   #img-div{
-     display: flex;
+     display: grid;
+     grid-column: auto;
+     align-;
      align-items: center;
      justify-content: center;
         border-radius: 50%;
+        justify-items: center
     }
 
     #image{
         border-radius: 50%;
-        width: 50%;
-        padding: 10%;
+        width: 30%;
+        
+        align-items: center;
+        max-width: 100%;
+        
     }
 
     #tribute-link{
     display: flex;
     align-items: center;
     justify-content: center;
+    }
+
+    #img-caption{
+        position: relative;
+        display: flex;
+        align-self: flex-end;
+        padding: 50px;
+        
     }
